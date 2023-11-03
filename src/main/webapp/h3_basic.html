@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>h3_basic.html 연습입니다.</title>
+</head>
+<body>
+	<!-- 자주 사용할만한 유용한 태그들? -->
+	<h1>h1은 가장 큰 머릿말(heading1)</h1>
+	<h2>h2는 두번째!</h2>
+	<h3>h3는 세번째</h3>
+	<h4>h4</h4>
+	<h5>5</h5>
+	<h6>6</h6>
+	<p> 단락, 문단(paragraph)
+	: p태그 사용하면 내용 앞뒤로 빈줄이 생기며 단락이 발생<p>
+	(block level tag)
+	<br>
+	ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>br : 줄 바꾸기<br>
+	ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ<hr>hr : 선긋고 줄바꾸기<hr>
+	ㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂㅂ<p>
+	<hr>
+	<div>division. 의미 X, 목적에 따라 컨텐츠를 묶을 때 사용</div>
+	<span>의미 X, 목적에 따라 컨텐츠를 묶을 때 사용</span><p>
+	<!-- div,span 차이 : 줄바꿈의 유무. div는 줄바꿈 기능이 포함되어있다. -->
+	띄어     쓰기<p>
+	띄어&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;쓰기<p><!-- &nbsp:띄어쓰기 -->
+	a&lt;10<!-- a < 10 --><p>
+	b&gt;20<!-- b > 20 --><p><hr>
+	<!-- 글자색 > 내장되어있는 색 : 그 이름 불러다 사용, 나머지는 #RRGGBBAA(RGB)로. #RRGGBBAA (AA:투명도) -->
+	<font size="15" color="scarlet">나는 이 색</font><p>
+	<font size="8" color="#0099ff">이 색</font><hr>
+	<p>글자를 <b>굵게</b> 만들어서 강조하면? </p>
+	<p>글자를 <i>기울이게</i> 하고 싶으면?</p>
+	<p>글자에 <u>밑줄을</u> 긋고 싶으면?</p>
+	
+	<!-- 목록 -->
+	<!-- 순서가 있는 목록 -->
+	
+	<!-- 순서가 있는 목록 : ordered list -->
+	<ol type="A">
+		<li>안녕하세요.</li>
+		<li>반갑습니다.</li>
+	</ol>
+	
+	<!-- 순서가 없는 목록 : unordered list -->
+	<ul type="square">
+		<li>안녕하세요.</li>
+		<li>반갑습니다.</li>
+	</ul>
+	
+	<!-- 그룹 -->
+	<fieldset> <!-- 하나의 그룹으로! -->
+		<legend>hello!</legend> <!-- 그룹명 -->
+		<ul>
+			<li>
+				<label>input 설명용</label>
+				<input value = "입력 할 수 있어요."><br>
+				
+				<label></label>
+				<input type="checkbox">선택?<br>
+				<input type="checkbox">그래?<br>
+				
+				<label for="agree">선택 버튼</label>
+				<input type ="checkbox" id="agree">선택.
+			</li>
+		</ul>
+	
+	</fieldset>
+	
+	<!-- input 타입은 다양함. -->
+	<input>
+	<input type="range"><p>
+	<input type="month"><p>
+	<input type="file"><p>
+	<input type="password"><p>
+	<input type="submit" value="버튼처럼."><p>
+	<input type="radio"><p>
+	<!-- <input type="??" 속성="속성값"> 
+		type : hidden(사용자에게 안보임, 서버로 값 보낼 때), password(입력창이 안보임),
+			range(숫자(범위)를 조절할 수 있는 슬라이드 막대), number(숫자를 조절할 수 있는 화살표),
+			search(검색), checkbox(체크박스. 중복선택 가능), radio(라디오버튼. 1개만 선택 가능),
+			file(file 업로드 가능),button(버튼 기능),text,reset,submit,image,....
+		속성 : readonly(읽기 전용),placeholder(힌트표시.input쪽 클릭하면 사라짐.),
+		autofocus(해당 위치에 바로 쓸 수 있도록 해줌.),maxlength(최대로 입력 가능한 글자 수,minlength는 없다!),
+		
+	-->
+	<input readonly="readonly" value="읽기만 가능해요."><p>
+	<input placeholder="ID입력"><p>
+	<input autofocus="autofocus"><p>
+	<input maxlength="3"><hr>
+	
+	<a href="https://www.naver.com">네이버로 가욧</a><p>
+	<img src="image/1.png"><p>
+	
+	<a href="https://www.google.com"><img src="image/2.png">구글버튼</a><p>
+	
+	<a href="h1_test.html">h1_test.html 열기</a><p>
+	
+	<a href="Desktop.zip">다운로드가 되요.</a>
+	
+	<!-- <a> 파일 열기 
+			그 브라우저가 그 파일을 열줄 안다 ? : 연다.
+			그 브라우저가 그 파일 열줄을 모른다 ? : 일단 다운받는다.
+	-->
+	
+	
+</body>
+</html>

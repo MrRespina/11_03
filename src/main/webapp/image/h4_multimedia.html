@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>h4_multimedia.html 연습입니다.</title>
+</head>
+<body>
+
+	<a href="https://www.youtube.com"> <img src="1.png">
+	</a>
+	<p>
+		<a>연결용</a>
+	<p>
+		<a href="https://www.youtube.com"> <img src="../2.png">
+		</a>
+	<p>
+
+		<!--  경로 : 내가 현재 사용하는 html 파일이 어디있는지 파악하는게 중요함.
+			절대경로 : 처음부터 명시. (D:/JspModel2/11_03_1_HTML/src/main/webapp/image/h4_multimedia.html)
+			상대경로 : 현재 파일부터 위치를 정해줌. (../2.png)		
+	 	-->
+
+		<!-- 사이즈 조절
+	 		사이즈 조절은 가급적으로 안하는게 좋음. > 깨져서 나올 확률 있음.
+	 		가로나 세로 중에 하나만 조절 > 원본 비율에 따라 크기 조절.
+	 		단위를 따로 적지 않으면 자동으로 px(픽셀) 단위
+	 		%단위로 조절도 사용 가능하다. (브라우저 width나 height에 따라 %로 조절됨.)
+	 		사이즈 줄이는거 > 그나마 괜찮음
+	 		사이즈 키우는거 > 이미지 깨짐&찢어짐
+	  	-->
+
+		<img width="100px" height="100px" src="../2.png">
+	<p>
+		<img width="30%" src="1.png">
+
+		<!-- 
+		.gif : <img>
+		.mp4 : <video>
+		.mp3 : <audio>
+		.pdf : <embed type="application/pdf" src=".pdf">
+			   <object type="application/pdf" data=".pdf"></object>
+	 	-->
+	 	
+	 	<p>
+	 	
+	 	<img src ="cat1.gif">
+</body>
+</html>
